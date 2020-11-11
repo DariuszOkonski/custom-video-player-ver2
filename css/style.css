@@ -17,6 +17,9 @@ body {
 
 h1 {
   color: #fff;
+  font-size: 1.6rem;
+  font-weight: 100;
+  letter-spacing: 1px;
 }
 
 .screen {
@@ -62,6 +65,10 @@ h1 {
   color: #fff;
   font-weight: bold;
   margin-left: 10px;
+}
+
+.btn:focus {
+  outline: 0;
 }
 
 @media(max-width: 800px) {
